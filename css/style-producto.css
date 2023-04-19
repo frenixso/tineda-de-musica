@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'sans-serif' ;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.container-img{
+    background-color: #f7f7f9;
+    flex: 1;
+}
+
+.container-info-product{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-price{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e4e4e4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-price span{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.container-add-to-cart{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.container-quantity{
+    position: relative;
+}
+
+.input-quantity{
+    background-color: #f7f7f7;
+    border: none;
+    padding: 10px;
+    width: 60px;
+    height: 100%;
+    color: #666;
+    font-weight: 500;
+    line-height: 0  ;
+}
+
+.input-quantity:focus{
+    outline: none;
+}
+
+
+
+.btn-increment-decrement{
+    display: flex;
+}
+
+.btn-increment-decrement i{
+    font-size: 25px;
+    color: #666;
+    cursor: pointer;
+}
+.fa-chevron-up:hover{
+    color: #1bbeb4;
+}
+
+.fa-chevron-down:hover{
+    color: #1bbeb4;
+}
+
+.container-description,
+.container-additional-information{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 10px 0;
+
+}
+
+.title-description,
+.title-additional-information{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.text-description,
+.text-additional-information P{
+    font-size: 20px;
+    color: #252525;
+    line-height: 22px;
+    margin-top: 25px;
+}
+.sale-real-price{
+    color: #1bbeb4;
+}
+.sale-offer-price{
+    color:red
+}
+
+#boton{
+    text-decoration: none;
+    color: white;
+    background: #252525 ;
+    padding: 4px;
+}

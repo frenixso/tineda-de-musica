@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Datos</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="shortcut icon" href="/img/favicon-16x16.png" type="image/x-icon">
+</head>
+<body >
+    <!-- CODIGO DE OREJA DE SITIO-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html"><img src="/img/android-chrome-512x512.png" alt="Logo" width="20" height="20" class="d-inline-block align-text-top">
+            MundoMusica.cl</a>
+            <!-- CODIGO OREJA DE SITIO -->
+            <!-- BARRA DE NAVEGACION -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/Nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/mis-datos-cliente.html">Mis datos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/mis-compras-cliente.html">Mis compras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/cierre-pagina.html">Cerrar Sesión</a>
+              </li>
+            </ul>
+            <li>
+              <a href="/carro.html"><img src="/img/icons8-agregar-a-carrito-de-compras-48.png" alt=""></a>
+            </li>
+          </div>
+        </div>
+      </nav>
+
+      <div>
+        <h2><small class="text-body-secondary">MIS DATOS</small></h2> 
+        
+      </div>
+
+      <hr>
+
+      <div class="container">
+        <div class="row justify-content-left">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="rut" class="form-label">RUT</label>
+                <input type="text" class="form-control" id="rut" placeholder="Ingresa tu RUT">
+              </div>
+              <div class="mb-3">
+                <label for="nombres" class="form-label">Nombres</label>
+                <input type="text" class="form-control" id="nombres" placeholder="Ingresa tus nombres">
+              </div>
+              <div class="mb-3">
+                <label for="apellidos" class="form-label">Apellidos</label>
+                <input type="text" class="form-control" id="apellidos" placeholder="Ingresa tus apellidos">
+              </div>
+              <div class="mb-3">
+                <label for="correo" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="correo"
+                  placeholder="Ingresa tu correo electrónico">
+              </div>
+              <div class="mb-3">
+                <label for="direccion" class="form-label">Dirección</label>
+                <input type="text" class="form-control" id="direccion" placeholder="Ingresa tu dirección">
+              </div>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="subscripcion">
+                <label class="form-check-label" for="subscripcion">Deseo suscribirme </label>
+              </div>
+
+              <br>
+              <hr>
+
+              <div class="mb-3">
+                <label class="form-label">Subir foto de perfil</label>
+                <input type="file" class="form-control-file" id="foto-perfil" accept="image/*">
+              </div>
+              <div class="mb-3 text-right">
+                <img src="" id="preview-foto" class="img-fluid" alt="Vista previa de la foto de perfil">
+              </div>
+
+              <script>
+                document.getElementById("foto-perfil").addEventListener("change", function (event) {
+                  var imagen = document.getElementById("preview-foto");
+                  imagen.src = URL.createObjectURL(event.target.files[0]);
+                });
+              </script>
+
+              <div class="botones-carro-finalizar-compra">
+                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href=''">Guardar </button>
+                <span><button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href=''">Limpiar</button></span>
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    </body>
+    <footer>
+      <div class="container text-center">
+          <p>
+              <a href="#">Volver arriba</a>
+          </p>
+      </div>
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4">
+                  <h4>Contacto</h4>
+                  <p>Teléfono: 111-222-4444</p>
+                  <p>Correo electrónico: MundoMusica@gmail.com</p>
+              </div>
+              <div class="col-md-4">
+                  <h4>Síguenos</h4>
+                  <ul class="list-unstyled">
+                    <li><img class="icon-facebook" src="/img/icons8-whatsapp.gif" alt=""><a href="https://api.whatsapp.com/"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+                    <li><img class="icon-facebook" src="/img/icons8-facebook.gif" alt=""><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i> Facebook</a></li>
+                    <li><img class="icon-facebook" src="/img/icons8-instagram.gif" alt=""><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><img class="icon-facebook" src="/img/icons8-twitter.gif" alt=""><a href="https://www.twitter.com/"> <i class="fab fa-twitter"></i>Twitter</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                  <h4>Acerca de nosotros</h4>
+                  <p>Bienvenido a nuestra página de venta de instrumentos musicales! 
+                    Somos una tienda en línea que ofrece una amplia variedad de instrumentos 
+                    de alta calidad para músicos de todos los niveles y géneros.
+                  </p>
+              </div>
+          </div>
+      </div>
+    </footer>
+    </html>
