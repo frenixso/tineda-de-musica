@@ -28,9 +28,10 @@ main{
 }
 
 .container-img{
-    background-color: #f7f7f9;
+    background-color: #f7f7f7;
     flex: 1;
 }
+
 
 .container-info-product{
     flex: 1;
@@ -132,4 +133,5 @@ main{
     color: white;
     background: #252525 ;
     padding: 4px;
+    border-bottom: 1px;
 }

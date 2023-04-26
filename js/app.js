@@ -3,7 +3,7 @@ const contenedor = document.querySelector('#contenedor')
 const modal = new bootstrap.Modal('#modal, {}')
 
 
-async function traerProductos(){
+async function traerProductos() {
     const url = 'https://fakestoreapi.com/products'
 
     try {
@@ -17,10 +17,10 @@ async function traerProductos(){
 
 }
 
-function pintarProductos(productos){
+function pintarProductos(productos) {
     console.log(productos)
     productos.forEach(prod => {
-        const{id, title, price, category, description, image} = prod
+        const { id, title, price, category, description, image } = prod
         contenedor.innerHTML += `<div class="card" style="width: 18rem;">
         <img src="${image}" class="card-img-top" alt="...">
         <div class="card-body">
@@ -35,7 +35,7 @@ function pintarProductos(productos){
     });
 }
 
-async function verProducto(id){
+async function verProducto(id) {
     const url = `https://fakestoreapi.com/products/${id}`
 
     try {
@@ -50,10 +50,28 @@ async function verProducto(id){
 }
 
 function verProductoDetalle(resultado) {
-    const{title, price, category, image} = resultado
+    const { title, price, category, image } = resultado
 
 
 
     modal.show()
 }
 
+(() => {
+    'use strict'
+  
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    const forms = document.querySelectorAll('.needs-validation')
+  
+    // Loop over them and prevent submission
+    Array.from(forms).forEach(form => {
+      form.addEventListener('submit', event => {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+  
+        form.classList.add('was-validated')
+      }, false)
+    })
+  })()

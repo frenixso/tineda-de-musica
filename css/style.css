@@ -31,7 +31,7 @@ footer {
 
 .rectangulo {
     width: 280px;
-    height: 70px;
+    height: 150px;
     background-color: #ffffff;
     border: 5px solid #d11717;
     padding: 20px;
@@ -69,4 +69,13 @@ footer {
     height: 100px;
     width: 100px;
     
+}
+
+.user-image{
+    max-width: 200px;
+}
+.area-text{
+    border-radius: 15px;
+    border:solid #e4e4e4;
+    border-width: 1px;
 }
