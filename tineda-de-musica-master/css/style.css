@@ -1,0 +1,86 @@
+.thumbnail-product{
+    height: 150px !important;
+    max-width: 150px !important;
+}
+
+.disponibilidad-product{
+    color: #dc0909;
+    font: 1em sans-serif;
+
+}
+
+footer {
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+.icon-facebook{
+    height: 24px !important;
+    max-width: 24px !important;
+   
+}
+
+
+.sale-real-price {
+    text-decoration: line-through;
+}
+
+.sale-offer-price {
+    color: rgb(0, 0, 0);
+
+}
+
+.rectangulo {
+    width: 280px;
+    height: 150px;
+    background-color: #ffffff;
+    border: 5px solid #d11717;
+    padding: 20px;
+  }
+
+.imagen-fondo{
+    background-image: url('/img/Sin-nombre.jpg');
+    
+    
+
+}
+
+.fondo-color{
+    background-color: rgb(215, 215, 215);
+}
+
+.texto-final{
+    text-align: center;
+}
+
+.formato-texto{
+    text-align: right;
+    text-shadow: rgb(79, 79, 79) !important;
+}
+
+.card-deck{
+    border: 3px rgb(0, 0, 0) !important;
+}
+
+.botones-carro-finalizar-compra{
+    text-align: right;
+}
+
+.formato-circles{
+    height: 100px;
+    width: 100px;
+    
+}
+
+.user-image{
+    max-width: 200px;
+}
+.area-text{
+    border-radius: 15px;
+    border:solid #e4e4e4;
+    border-width: 1px;
+}
+
+.error {
+    color: red;
+    font-weight: bolder;
+}
