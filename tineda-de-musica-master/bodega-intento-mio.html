@@ -14,218 +14,144 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/index.html"><img src="/img/android-chrome-512x512.png" alt="Logo" width="20"
-                    height="20" class="d-inline-block align-text-top">
-                MundoMusica.cl</a>
-            <!-- CODIGO OREJA DE SITIO -->
-            <!-- BARRA DE NAVEGACION -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/Nosotros.html">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/mis-datos-cliente.html">Mis datos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/administrar-tienda.html">Administrar</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/cierre-pagina.html">Cerrar Sesión</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <div id="menu-superior-nav"></div>
 
-    <main role="main">
-        <div class="container">
-            <section>
-                <h2><small class="text-body-secondary">MANTENEDOR DE BODEGA</small></h2>
-                <hr>
-                <br>
-                <form class="row g-3 needs-validation" action="" novalidate>
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col">
-                                <div class="mb-3 fw-bold">
-                                    <label for="rut" class="form-lable">
+        <main role="main">
+            <div class="container">
+                <section>
+                    <h2><small class="text-body-secondary">MANTENEDOR DE BODEGA</small></h2>
+                    <hr>
+                    <br>
+                    <form class="row g-3 needs-validation" action="" novalidate>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="mb-3 fw-bold">
+                                        <label for="rut" class="form-lable">
 
-                                    </label>
-                                    <div>
-                                        <span>CATEGORIA </span> <select class="lead">
-                                            <option value="opcion1">Guitarras</option>
-                                            <option value="opcion2">Baterias</option>
-                                            <option value="opcion3">Accesorios</option>
-                                            <option value="opcion4">Pack</option>
-                                        </select>
+                                        </label>
+                                        <div>
+                                            <span>CATEGORIA </span> <select class="lead">
+                                                <option value="opcion1">Guitarras</option>
+                                                <option value="opcion2">Baterias</option>
+                                                <option value="opcion3">Accesorios</option>
+                                                <option value="opcion4">Pack</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3 fw-bold">
+                                        <label for="nombres" class="form-lable">
+
+                                        </label>
+                                        <div>
+                                            <span>NOMBRE </span> <select class="lead">
+                                                <option value="opcion1">
+                                                    Guitarra-electrica-scorpion-naturalblack-amplificador-15w</option>
+                                                <option value="opcion2">Guitarra Squier azul</option>
+                                                <option value="opcion3">Guitarra Fender</option>
+                                                <option value="opcion4">Guitarra Squier rosado</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3 fw-bold">
+                                        <label for="apellidos" class="form-lable">
+
+                                        </label>
+                                        <div class="container-quantity">
+                                            CANTITAD
+                                            <input type="number" name="" id="" placeholder="1" value="1" min="1"
+                                                class="input-quantity">
+                                        </div>
+
                                     </div>
                                 </div>
-                                <div class="mb-3 fw-bold">
-                                    <label for="nombres" class="form-lable">
-
-                                    </label>
-                                    <div>
-                                        <span>NOMBRE </span> <select class="lead">
-                                            <option value="opcion1">
-                                                Guitarra-electrica-scorpion-naturalblack-amplificador-15w</option>
-                                            <option value="opcion2">Guitarra Squier azul</option>
-                                            <option value="opcion3">Guitarra Fender</option>
-                                            <option value="opcion4">Guitarra Squier rosado</option>
-                                        </select>
-                                    </div>
+                                <!--foto de perfil-->
+                                <div class="col">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <img src="img/85488.png" alt="" class="user-image">
+                                            </td>
+                                        </tr>
+                                    </table>
                                 </div>
-                                <div class="mb-3 fw-bold">
-                                    <label for="apellidos" class="form-lable">
-
-                                    </label>
-                                    <div class="container-quantity">
-                                        CANTITAD
-                                        <input type="number" name="" id="" placeholder="1" value="1" min="1"
-                                            class="input-quantity">
-                                    </div>
-
-                                </div></div>
-                            <!--foto de perfil-->
-                            <div class="col">
-                                <table>
-                                    <tr>
-                                        <td>
-                                            <img src="img/85488.png" alt=""
-                                                class="user-image">
-                                        </td>
-                                    </tr>
-                                </table>
                             </div>
                         </div>
-                    </div>
-                </form>
-            </section>
+                    </form>
+                </section>
+            </div>
+        </main>
+        <div class="botones-carro-finalizar-compra">
+            <button type="button" class="btn btn-sm btn-outline-secondary"
+                onclick="window.location.href=''">Nuevo</button>
+            <span><button type="button" class="btn btn-sm btn-outline-secondary"
+                    onclick="window.location.href=''">Agregar</button></span>
         </div>
-    </main>
-    <div class="botones-carro-finalizar-compra">
-        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href=''">Nuevo</button>
-        <span><button type="button" class="btn btn-sm btn-outline-secondary"
-                onclick="window.location.href=''">Agregar</button></span>
-    </div>
-    <hr>
+        <hr>
 
-    <table class="table">
-        <thead>
-            <tr>
-                <th scope="col">></th>
-                <th scope="col">ID</th>
-                <th scope="col">NOMBRE</th>
-                <th scope="col">ESTADO</th>
-                <th scope="col">OPCIONES</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="row"></th>
-                <td>0027</td>
-                <td>Guitarra-electrica-scorpion-naturalblack-amplificador-15w</td>
-                <td>VENDIDO</td>
-                <td><button type="button" class="btn btn-sm btn-outline-secondary"
-                        onclick="window.location.href=''">Eliminar</button></td>
-            </tr>
-            <br>
-            <tr>
-                <th scope="row"></th>
-                <td>0028</td>
-                <td>Guitarra-electrica-scorpion-naturalblack-amplificador-15w</td>
-                <td>EN BODEGA</td>
-                <td><button type="button" class="btn btn-sm btn-outline-secondary"
-                        onclick="window.location.href=''">Eliminar</button></td>
-            </tr>
-            <tr>
-                <th scope="row"></th>
-                <td>0029</td>
-                <td>Guitarra Squier Azul</td>
-                <td>ENTREGADO</td>
-                <td><button type="button" class="btn btn-sm btn-outline-secondary"
-                        onclick="window.location.href=''">Eliminar</button></td>
-            </tr>
-            <tr>
-                <th scope="row"></th>
-                <td>0030</td>
-                <td>Guitarra Squier modelo Affinity</td>
-                <td>EN BODEGA</td>
-                <td><button type="button" class="btn btn-sm btn-outline-secondary"
-                        onclick="window.location.href=''">Eliminar</button></td>
-            </tr>
-        </tbody>
-    </table>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">></th>
+                    <th scope="col">ID</th>
+                    <th scope="col">NOMBRE</th>
+                    <th scope="col">ESTADO</th>
+                    <th scope="col">OPCIONES</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row"></th>
+                    <td>0027</td>
+                    <td>Guitarra-electrica-scorpion-naturalblack-amplificador-15w</td>
+                    <td>VENDIDO</td>
+                    <td><button type="button" class="btn btn-sm btn-outline-secondary"
+                            onclick="window.location.href=''">Eliminar</button></td>
+                </tr>
+                <br>
+                <tr>
+                    <th scope="row"></th>
+                    <td>0028</td>
+                    <td>Guitarra-electrica-scorpion-naturalblack-amplificador-15w</td>
+                    <td>EN BODEGA</td>
+                    <td><button type="button" class="btn btn-sm btn-outline-secondary"
+                            onclick="window.location.href=''">Eliminar</button></td>
+                </tr>
+                <tr>
+                    <th scope="row"></th>
+                    <td>0029</td>
+                    <td>Guitarra Squier Azul</td>
+                    <td>ENTREGADO</td>
+                    <td><button type="button" class="btn btn-sm btn-outline-secondary"
+                            onclick="window.location.href=''">Eliminar</button></td>
+                </tr>
+                <tr>
+                    <th scope="row"></th>
+                    <td>0030</td>
+                    <td>Guitarra Squier modelo Affinity</td>
+                    <td>EN BODEGA</td>
+                    <td><button type="button" class="btn btn-sm btn-outline-secondary"
+                            onclick="window.location.href=''">Eliminar</button></td>
+                </tr>
+            </tbody>
+        </table>
 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+            crossorigin="anonymous"></script>
+        <script src="js/app.js"></script>
+        <div id="footer-pag"></div>
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+            integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"
+            integrity="sha512-rstIgDs0xPgmG6RX1Aba4KV5cWJbAMcvRCVmglpam9SoHZiUCyQVDdH2LPlxoHtrv17XWblE/V/PP+Tr04hbtA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="js/scrip.js"></script>
+        <script src="js/footrer.js"></script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
-        crossorigin="anonymous"></script>
-    <script src="js/app.js"></script>
 </body>
-<footer>
-    <div class="container text-center">
-        <p>
-            <a href="#">Volver arriba</a>
-        </p>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <h4>Contacto</h4>
-                <p>Teléfono: 111-222-4444</p>
-                <p>Correo electrónico: MundoMusica@gmail.com</p>
-            </div>
-            <div class="col-md-4">
-                <h4>Síguenos</h4>
-                <ul class="list-unstyled">
-                    <li><img class="icon-facebook" src="/img/icons8-whatsapp.gif" alt=""><a
-                            href="https://api.whatsapp.com/"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
-                    <li><img class="icon-facebook" src="/img/icons8-facebook.gif" alt=""><a
-                            href="https://www.facebook.com/"><i class="fab fa-facebook"></i> Facebook</a></li>
-                    <li><img class="icon-facebook" src="/img/icons8-instagram.gif" alt=""><a
-                            href="https://www.instagram.com/"><i class="fab fa-instagram"></i> Instagram</a></li>
-                    <li><img class="icon-facebook" src="/img/icons8-twitter.gif" alt=""><a
-                            href="https://www.twitter.com/"> <i class="fab fa-twitter"></i>Twitter</a></li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <h4>Acerca de nosotros</h4>
-                <p>Bienvenido a nuestra página de venta de instrumentos musicales!
-                    Somos una tienda en línea que ofrece una amplia variedad de instrumentos
-                    de alta calidad para músicos de todos los niveles y géneros.
-                </p>
-            </div>
-        </div>
-    </div>
-</footer>
 
 </html>

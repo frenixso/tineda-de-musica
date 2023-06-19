@@ -19,15 +19,6 @@ $(document).ready(function() {
                     minlength: 5,
                     equalTo: '#password'
                 },
-                nombres: { 
-                    required: true
-                },
-                apellidos: {
-                    required: true
-                },
-                direccion: {
-                    required: true
-                }
             },
             messages: {
                 rut: {
@@ -46,15 +37,6 @@ $(document).ready(function() {
                     minlength: 'La password debe tener al menos 5 caracteres',
                     equalTo: 'las dos passwords deben ser iguales'
                 },
-                nombres: {
-                    required: 'El campo de nombre es obligatorio'
-                },
-                apellidos: {
-                    required: 'El campo de apellidos es obligatorio'
-                },
-                direccion: {
-                    required: 'La direccion es obligatorio'
-                }   
             }
         }
     );

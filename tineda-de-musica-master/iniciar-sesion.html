@@ -1,122 +1,88 @@
 <!DOCTYPE html>
 
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar Sesión</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-    <link rel="shortcut icon" href="/img/favicon-16x16.png" type="image/x-icon">
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/index.html"><img src="/img/android-chrome-512x512.png" alt="Logo" width="20" height="20" class="d-inline-block align-text-top">
-           MundoMusica.cl</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/iniciar-sesion.html">Iniciar Sesión</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/Nosotros.html">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/Registrarse.html">Registrate</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
 
-      <p></p>
-  <p></p>
-  <div class="container">
-    <div class="row justify-content-center mt-5">
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-header">
-            <h4 class="mb-0">Iniciar sesión</h4>
-          </div>
-          <div class="card-body">
-            <form>
-              <div class="form-group">
-                <label for="inputEmail">Correo electrónico</label>
-                <input type="email" class="form-control" id="inputEmail" placeholder="Correo electrónico">
-              </div>
-              <br>
-              <div class="form-group">
-                <label for="inputPassword">Contraseña</label>
-                <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
-              </div>
-              <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="rememberMe">
-                <label class="form-check-label" for="rememberMe">Recordar contraseña</label>
-              </div>
-              <br>
-              <button type="button" class="btn btn-primary" onclick='window.location.href = "/index2-cliente.html"'>Iniciar
-                sesión</button>
-                
-            </form>
-          </div>
-          <div class="card-footer text-center">
-            ¿No tienes cuenta? <a href="Registrarse.html">Registrarse</a><hr><a href="/olvido-contraseña.html">¿Olvidaste tu contraseña? </a>
-          </div>
-          <div class="text-center">
-            <a href="/inicio-sesion-admin.html">¿Eres administrador?</a>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar Sesión</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="shortcut icon" href="/img/favicon-16x16.png" type="image/x-icon">
+</head>
+
+<body>
+  <div id="menu-superior-nav"></div>
+
+    <p></p>
+    <p></p>
+    <div class="container">
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h4 class="mb-0">Iniciar sesión</h4>
+            </div>
+            <div class="card-body">
+              <form>
+                <div class="form-group">
+                  <label for="inputEmail">Correo electrónico</label>
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Correo electrónico">
+                </div>
+                <br>
+                <div class="form-group">
+                  <label for="inputPassword">Contraseña</label>
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="rememberMe">
+                  <label class="form-check-label" for="rememberMe">Recordar contraseña</label>
+                </div>
+                <br>
+                <button type="button" class="btn btn-primary"
+                  onclick='window.location.href = "/index2-cliente.html"'>Iniciar
+                  sesión</button>
+
+              </form>
+            </div>
+            <div class="card-footer text-center">
+              ¿No tienes cuenta? <a href="Registrarse.html">Registrarse</a>
+              <hr><a href="/olvido-contraseña.html">¿Olvidaste tu contraseña? </a>
+            </div>
+            <div class="text-center">
+              <a href="/inicio-sesion-admin.html">¿Eres administrador?</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <br>
-  <br>
-  <br>
-
+    <br>
+    <br>
+    <br>
 
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/js/scrip.js">
+
+    <div id="footer-pag"></div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"
+      integrity="sha512-rstIgDs0xPgmG6RX1Aba4KV5cWJbAMcvRCVmglpam9SoHZiUCyQVDdH2LPlxoHtrv17XWblE/V/PP+Tr04hbtA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/scrip.js"></script>
+    <script src="js/footrer.js"></script>
 </body>
-<footer>
-  <div class="container text-center">
-      <p>
-          <a href="#">Volver arriba</a>
-      </p>
-  </div>
-  <div class="container">
-      <div class="row">
-          <div class="col-md-4">
-              <h4>Contacto</h4>
-              <p>Teléfono: 111-222-4444</p>
-              <p>Correo electrónico: MundoMusica@gmail.com</p>
-          </div>
-          <div class="col-md-4">
-              <h4>Síguenos</h4>
-              <ul class="list-unstyled">
-                  <li><img class="icon-facebook" src="/img/icons8-whatsapp.gif" alt=""><a href="https://api.whatsapp.com/"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
-                  <li><img class="icon-facebook" src="/img/icons8-facebook.gif" alt=""><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i> Facebook</a></li>
-                  <li><img class="icon-facebook" src="/img/icons8-instagram.gif" alt=""><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i> Instagram</a></li>
-                  <li><img class="icon-facebook" src="/img/icons8-twitter.gif" alt=""><a href="https://www.twitter.com/"> <i class="fab fa-twitter"></i>Twitter</a></li>
-              </ul>
-          </div>
-          <div class="col-md-4">
-              <h4>Acerca de nosotros</h4>
-              <p>
-                Bienvenido a nuestra página de venta de instrumentos musicales! 
-                Somos una tienda en línea que ofrece una amplia variedad de instrumentos 
-                de alta calidad para músicos de todos los niveles y géneros.
-              </p>
-          </div>
-      </div>
-  </div>
-</footer>
 
 </html>
