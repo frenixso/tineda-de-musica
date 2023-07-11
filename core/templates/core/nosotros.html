@@ -1,0 +1,58 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block content %}
+  
+  <h1> Nosotros </h1>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        Apasionados de la tecnología y la musica. Juntos, han creado una página de venta de instrumentos musicales en línea llamada "MundoMusica".
+                Matias ha estado tocando la guitarra desde muy joven y ha participado en varias bandas. Conoce de primera mano las necesidades de los músicos y 
+                ha sido muy útil para decidir qué tipos de instrumentos ofrecer en la página web. Además, ha trabajado en el diseño de la interfaz de usuario
+                de la página, asegurándose de que sea fácil de usar y que los clientes encuentren rápidamente lo que buscan.
+                Por otro lado, Joaquin ha trabajado en el mundo de los negocios y la tecnología durante varios años. Él se encarga de la parte más técnica de la 
+                página, asegurándose de que todo funcione correctamente y que la página sea segura para los clientes. También ha sido el responsable de la publicidad 
+                y el marketing de MundoMusica, haciendo que la página se convierta en un éxito en muy poco tiempo.
+                En MundoMusica, Matias y Joaquin trabajan juntos para ofrecer la mejor experiencia de compra en línea para los músicos. Han construido una plataforma fácil de usar,
+                con un catálogo de instrumentos de alta calidad a precios asequibles. Además, ofrecen un excelente servicio al cliente y envíos rápidos y seguros.
+                Gracias a su dedicacion, MundoMusica ha tenido un gran éxito y se ha convertido en una página de referencia para los músicos que buscan instrumentos en línea.
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <div class="row">
+
+          <div class="col-sm-12 col-md-6">
+            <div class="card" style="width: 24rem;">
+              <img src="{% static 'core/images/perfil-hombre-vivo.png' %} "class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Matias Soto</h4>
+                <h5 class="card-title">Dueño y fundador</h5>
+                <p class="card-text">
+                  fundador de MundoMúsica es un apasionado de la música y un emprendedor audaz. Su amor por el arte sonoro y su visión de compartir esa pasión con otros lo llevaron a establecer MundoMúsica, una tienda que se ha convertido en un destino destacado para los amantes de la música.
+                </p>
+                <a href="mailto:cgomezvega@gmail.com" class="btn btn-primary">Enviar un correo</a>
+              </div>
+              
+            </div>
+            <br>
+            <div class="card" style="width: 24rem;">
+              <img src="{% static 'core/images/b5b68253409b796f61f6ecd1f1.jpg' %} " class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Joaquin Moraga</h4>
+                <h5 class="card-title">Encargada de ventas e ingeniero informatico</h5>
+                <p class="card-text">
+                  encargado de ventas de MundoMúsica es un profesional dinámico y conocedor de la industria musical. Con una pasión por la música y un profundo conocimiento de los productos y servicios ofrecidos por la tienda, el encargado de ventas se destaca por su capacidad para entender las necesidades de los clientes y proporcionarles soluciones adecuadas.
+                </p>
+                <a href="mailto:cgomezvega@gmail.com" class="btn btn-primary">Enviar un correo</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      
+    </div>
+  </div>
+    
+{% endblock content %}
